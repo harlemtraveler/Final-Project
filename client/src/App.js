@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Product from './Product';
 const BASE_URL = process.env.REACT_APP_BASE_URL;
 
 class App extends Component {
   constructor(props) {
-    super();
+    super(props);
     this.state = {
       users: []
     };
@@ -38,8 +39,13 @@ class App extends Component {
         </div>
 
         <h1>Scripthub</h1>
+        <div>
+          <img src="public/img/neon-lights.png" />
+        </div>
         <div>{JSON.stringify(this.state.users)}</div>
         <div>{BASE_URL}</div>
+
+        <Product />
       </div>
     );
   }

@@ -22,6 +22,20 @@
   font-size: large;
 }
 
+figure {
+  /* background-color: red; */
+  border: 1px solid black;
+  height: 400px;
+}
+
+div {
+  border: 1px solid black;
+}
+
+img {
+  height: 100px;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
