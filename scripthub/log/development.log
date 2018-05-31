@@ -2145,3 +2145,193 @@ Completed 200 OK in 197ms (Views: 182.5ms | ActiveRecord: 14.3ms)
 Completed 200 OK in 565ms (Views: 363.9ms | ActiveRecord: 200.6ms)
 
 
+Started GET "/users" for 127.0.0.1 at 2018-05-31 10:25:29 -0400
+Started GET "/products" for 127.0.0.1 at 2018-05-31 10:25:29 -0400
+Processing by ProductsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProduct Load (10.7ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 635ms (Views: 619.3ms | ActiveRecord: 10.7ms)
+
+
+  [1m[36mUser Load (623.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 1042ms (Views: 418.6ms | ActiveRecord: 623.1ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-05-31 10:28:44 -0400
+Started GET "/products" for 127.0.0.1 at 2018-05-31 10:28:44 -0400
+Processing by ProductsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProduct Load (23.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 325ms (Views: 300.8ms | ActiveRecord: 23.2ms)
+
+
+  [1m[36mUser Load (323.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 807ms (Views: 483.6ms | ActiveRecord: 323.2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-05-31 10:29:17 -0400
+Started GET "/users" for 127.0.0.1 at 2018-05-31 10:29:17 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (7.9ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 481ms (Views: 472.6ms | ActiveRecord: 7.9ms)
+
+
+  [1m[36mUser Load (486.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 942ms (Views: 455.5ms | ActiveRecord: 486.3ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-05-31 10:57:30 -0400
+Started GET "/users" for 127.0.0.1 at 2018-05-31 10:57:30 -0400
+Processing by ProductsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProduct Load (16.9ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+  [1m[36mUser Load (662.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 872ms (Views: 847.6ms | ActiveRecord: 16.9ms)
+
+
+Completed 200 OK in 1227ms (Views: 563.9ms | ActiveRecord: 662.2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-05-31 13:32:59 -0400
+Started GET "/products" for 127.0.0.1 at 2018-05-31 13:32:59 -0400
+Started GET "/users" for 127.0.0.1 at 2018-05-31 13:32:59 -0400
+Started GET "/users" for 127.0.0.1 at 2018-05-31 13:32:59 -0400
+Processing by ProductsController#index as */*
+Processing by UsersController#index as */*
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mUser Load (15.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mUser Load (415.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mProduct Load (734.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 1905ms (Views: 1488.8ms | ActiveRecord: 415.0ms)
+
+
+Completed 200 OK in 1991ms (Views: 1975.3ms | ActiveRecord: 15.0ms)
+
+
+Completed 200 OK in 2013ms (Views: 1274.8ms | ActiveRecord: 734.4ms)
+
+
+  [1m[36mProduct Load (1987.8ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 2215ms (Views: 226.7ms | ActiveRecord: 1987.8ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-05-31 13:46:11 -0400
+Started GET "/users" for 127.0.0.1 at 2018-05-31 13:46:11 -0400
+Started GET "/products" for 127.0.0.1 at 2018-05-31 13:46:11 -0400
+Started GET "/users" for 127.0.0.1 at 2018-05-31 13:46:11 -0400
+  [1m[35m (6.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (5.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (7.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (6.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  ↳ /usr/local/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  ↳ /usr/local/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by ProductsController#index as */*
+Processing by UsersController#index as */*
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (10.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+  [1m[36mProduct Load (15.8ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+  [1m[36mUser Load (24.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mUser Load (51.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 849ms (Views: 611.3ms | ActiveRecord: 227.7ms)
+
+
+Completed 200 OK in 868ms (Views: 800.2ms | ActiveRecord: 61.8ms)
+
+
+Completed 200 OK in 1119ms (Views: 965.6ms | ActiveRecord: 143.8ms)
+
+
+Completed 200 OK in 1336ms (Views: 392.8ms | ActiveRecord: 934.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-05-31 13:47:33 -0400
+Processing by UsersController#index as */*
+  [1m[36mUser Load (5.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Started GET "/products" for 127.0.0.1 at 2018-05-31 13:47:33 -0400
+Started GET "/users" for 127.0.0.1 at 2018-05-31 13:47:33 -0400
+Started GET "/products" for 127.0.0.1 at 2018-05-31 13:47:34 -0400
+Completed 200 OK in 650ms (Views: 644.2ms | ActiveRecord: 5.0ms)
+
+
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (4.9ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+  [1m[36mUser Load (7.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mProduct Load (177.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/users_controller.rb:8
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 813ms (Views: 807.4ms | ActiveRecord: 4.9ms)
+
+
+Completed 200 OK in 1207ms (Views: 1029.6ms | ActiveRecord: 177.2ms)
+
+
+Completed 200 OK in 1381ms (Views: 1373.1ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-05-31 14:13:47 -0400
+Started GET "/users" for 127.0.0.1 at 2018-05-31 14:13:47 -0400
+Started GET "/products" for 127.0.0.1 at 2018-05-31 14:13:47 -0400
+Processing by UsersController#index as */*
+Started GET "/products" for 127.0.0.1 at 2018-05-31 14:13:47 -0400
+  [1m[36mUser Load (57.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 992ms (Views: 930.6ms | ActiveRecord: 57.1ms)
+
+
+Processing by ProductsController#index as */*
+Processing by ProductsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProduct Load (4.6ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 220ms (Views: 215.1ms | ActiveRecord: 4.6ms)
+
+
+  [1m[36mProduct Load (221.5ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 575ms (Views: 353.0ms | ActiveRecord: 221.5ms)
+
+
+  [1m[36mUser Load (580.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 1024ms (Views: 442.9ms | ActiveRecord: 580.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-05-31 14:24:30 -0400
+Started GET "/products" for 127.0.0.1 at 2018-05-31 14:24:30 -0400
+Processing by ProductsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProduct Load (6.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 453ms (Views: 439.4ms | ActiveRecord: 6.2ms)
+
+
+  [1m[36mUser Load (446.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 892ms (Views: 445.3ms | ActiveRecord: 446.5ms)
+
+
