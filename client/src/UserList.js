@@ -23,17 +23,29 @@ import UserDetail from './UserDetail';
 //   }
 // }
 
-const UserList = props => {
-  // const userlist = props.users.map((user) => {
-  //     console.log('user')
-  //     <UserDetail detail={user} />
-  // })
+// const UserList = props => {
+//   // const userlist = props.users.map((user) => {
+//   //     console.log('user')
+//   //     <UserDetail detail={user} />
+//   // })
+//   return (
+//     <div>
+//       <h1> i am userslist </h1>
+//       <UserDetail detail={props.user} />
+//     </div>
+//   )
+// }
+// export default UserList;
+export default function UserList(props) {
   return (
     <div>
-      <h1> i am userslist </h1>
-      <UserDetail detail={props.user} />
+      {
+        props.users.map(user => (
+          <UserDetail
+            user={user}
+          />
+        ))
+      }
     </div>
-    //<UserDetail />
-  )
+  );
 }
-export default UserList;

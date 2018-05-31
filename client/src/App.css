@@ -22,35 +22,9 @@
   font-size: large;
 }
 
-.loader {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100px;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  visibility: hidden;transition-delay: 0.2s;
-}
-
-.icon {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  background: url('');
-  background-size: 248px 248px;
-}
-
-.is-loading. > loader. > icon {
-  opacity: 1;
-  visibility: visible;
-  transition: opacity 0.3s linear,visibility 0.3s linear;
-  z-index: 3;
-}
-
-.is-loading. > loader. > icon.icon {
-  animation: spin 500ms infinite linear;
+body {
+  font-family: 'Indie Flower', cursive;
+  /* font-family: 'Roboto', sans-serif; */
 }
 
 figure {
@@ -59,12 +33,97 @@ figure {
   height: 400px;
 }
 
-div {
+* {
   border: 1px solid black;
 }
 
+header {
+  margin-bottom: 50px;
+}
+
 img {
-  height: 100px;
+  height: 50px;
+  width: 50px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+header, section, footer, aside, nav, article, figure, figcaption {
+  display: block;
+}
+
+.profile-picture {
+  border-radius: 50px;
+}
+
+.computer-icon {
+  margin-left: auto;
+}
+
+.flex-item {
+  margin: 10px;
+}
+
+.item-one {
+  flex-grow: 1;
+  margin-left: 0;
+}
+
+.banner-image-container {
+  width: 100%;
+  max-width: 850px;
+  height: 120px;
+  background-image: url('./img/neon-lights.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+}
+
+.banner-text {
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.banner-button {
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  text-align: center;
+  width: auto;
+  line-height: 21px;
+  border-radius: 4px;
+  padding: 6px 24px;
+  border-width: 2px;
+  border-style: solid;
+  box-shadow: rgba(0, 0, 0, 0.5)0 4px 4px 0;
+  background: rgb(255, 255, 255);
+  border-color: transparent;
+  color: rgb(72, 72, 72);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
 }
 
 @keyframes App-logo-spin {
@@ -72,7 +131,7 @@ img {
   to { transform: rotate(360deg); }
 }
 
-@@keyframes spin {
+@keyframes spin {
   0% { transform: rotate(0); transform-origin: center center; }
   100% { transform: rotate(360deg); transform-origin: center center; }
 }

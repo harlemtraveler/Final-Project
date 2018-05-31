@@ -5,6 +5,9 @@ import Product from './Product';
 import UserDetail from './UserDetail';
 import UserList from './UserList';
 import ProductTable from './ProductTable';
+import ProfilePicture from './img/profile_picture.png';
+import ComputerIcon from './img/computer.png';
+import NeonLights from './img/neon-lights.png'
 import 'whatwg-fetch'
 const BASE_URL = process.env.REACT_APP_BASE_URL;
 
@@ -30,64 +33,69 @@ class App extends Component {
         products: data
       }));
   }
-
-  // render() {
-  //   const UsersList = users => (
-  //     <div>
-  //       {users.map(user => (
-  //         <div className="user" key={user.user_id}>{user.first_name}</div>
-  //       ))}
-  //     </div>
-  //   )
-  //   return (
-  //     <div className="App">
-  //       <div>
-  //         <nav>
-  //           <ul>
-  //             <li>Notiifications</li>
-  //             <li>Messeges</li>
-  //             <li>Saved</li>
-  //           </ul>
-  //           <div><img src="#" alt="user-avatar" /></div>
-  //         </nav>
-  //       </div>
-  //
-  //       <h1>Scripthub</h1>
-  //
-  //       <div>
-  //         <img src="public/img/neon-lights.png" />
-  //       </div>
-  //
   //       {/* <div>{JSON.stringify(this.state.users)}</div> */}
   //       <div>{BASE_URL}</div>
-  //
-  //       {/* <UserList
-  //         users={this.state.users}
-  //       /> */}
-  //       <UsersList />
-  //     </div>
-  //   );
-  // }
-
-  renderUsers() {
-    // this.state.users =  JSON.stringify(this.state.users)
-    return this.state.users.map(user => {
-        <tr key={user.user_id}>
-          <td>{user.user_id}</td>
-          <td>{user.first_name}</td>
-          <td>{user.last_name}</td>
-          <td>{user.email}</td>
-        </tr>
-    })
-  }
 
   render() {
     return (
-      <div className="container">
-        <ProductTable
-          products={this.state.products}
-        />
+      <div className="navigation-bar">
+        <header>
+        <nav>
+          <ul>
+            <li className="flex-item item-one">
+              <img src={ComputerIcon} className="computer-icon" />
+            </li>
+            <li className="flex-item">
+              <a src="#">Saved</a>
+            </li>
+            <li className="flex-item">
+              <a src="#">Messages</a>
+            </li>
+            <li className="flex-item">
+              <a
+                src={ProductTable}
+              >
+                Repo
+              </a>
+            </li>
+            <li className="flex-item">
+              <img src={ProfilePicture} className="profile-picture" />
+            </li>
+          </ul>
+        </nav>
+        <div className="banner-image-container">
+          <p className="banner-text">
+          Making DevOps a little easier
+          </p>
+          <button className="banner-button">
+          Explore Scripts
+        </button>
+        </div>
+      </header>
+      <section className="main">
+        <article>
+          <figure></figure>
+        </article>
+        <article>
+          <figure></figure>
+        </article>
+      </section>
+      <aside>
+        <section></section>
+        <section></section>
+      </aside>
       </div>
+      // <div className="container">
+      //   <UserList
+      //     users={this.state.users}
+      //   />
+      //   <br />
+      //   <br />
+      //   <br />
+      //   <ProductTable
+      //     products={this.state.products}
+      //   />
+      // </div>
     )
   }
 }
