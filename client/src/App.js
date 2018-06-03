@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { compose } from 'redux';
 import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 import './App.css';
 import './App2.css';
@@ -13,8 +14,7 @@ import Contact from './components/Contact'
 import UserProfile from './components/UserProfile';
 import User from './components/User';
 import Whoops404 from './components/Whoops404';
-import 'whatwg-fetch'
-import { compose } from 'redux';
+import 'whatwg-fetch';
 
 const BASE_URL = process.env.REACT_APP_BASE_URL;
 
