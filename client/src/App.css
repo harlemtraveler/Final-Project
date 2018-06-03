@@ -30,15 +30,18 @@ body {
 figure {
   /* background-color: red; */
   border: 1px solid black;
+  margin: auto;
   height: 400px;
+  width: 800px;
 }
 
-* {
+/* * {
   border: 1px solid black;
-}
+} */
 
 header {
   margin-bottom: 50px;
+  max-width: inherit;
 }
 
 img {
@@ -50,6 +53,9 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  margin-top: 0;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
 li {
@@ -62,12 +68,16 @@ li {
 
 a {
   text-decoration: none;
-
 }
 
 header, section, footer, aside, nav, article, figure, figcaption {
   display: block;
 }
+
+/* nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 0;
+} */
 
 .profile-picture {
   border-radius: 50px;
@@ -82,23 +92,25 @@ header, section, footer, aside, nav, article, figure, figcaption {
 }
 
 .item-one {
-  flex-grow: 1;
-  margin-left: 0;
+  margin-right: auto;
+  margin-left: 10px;
+  margin-top: 10px;
+  left: 0;
 }
-
+/*
 .banner-image-container {
   width: 100%;
   max-width: 850px;
-  height: 120px;
-  background-image: url('./img/neon-lights.png');
-  background-repeat: no-repeat;
+  height: 120px; */
+  /* background-image: url('./img/neon-lights.png'); */
+  /* background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   margin: auto;
-}
+} */
 
 .banner-text {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-align: left;
   font-size: 24px;
   margin-top: 0;
@@ -124,6 +136,57 @@ header, section, footer, aside, nav, article, figure, figcaption {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 800;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+}
+
+.userdetails-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* margin-left: 20px; */
+}
+
+.contact {
+  text-decoration: none;
+  color: inherit;
+}
+
+.fourOfour {
+  font-family: sans-serif;
+  font-size: 200px;
+}
+
+.about-title {
+  font-family: 'Open Sans', sans-serif;
+}
+.about-figure {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+}
+
+.about-image-container {
+  height: 400px;
+  width: inherit;
+  background-image: url("https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d95859639b5694086008907139a72294&auto=format&fit=crop&w=800&q=60");
+}
+
+/* .top-nav-ul {
+  color: rgb(255, 255, 255);
+} */
+
+.main-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 0;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
 @keyframes App-logo-spin {
