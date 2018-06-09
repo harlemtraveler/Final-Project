@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { compose } from 'redux';
+// import { compose } from 'redux';
 import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 import './App.css';
 import './App2.css';
@@ -15,8 +15,10 @@ import UserProfile from './components/UserProfile';
 import User from './components/User';
 import Whoops404 from './components/Whoops404';
 import 'whatwg-fetch';
+import TestUserList from './components/TestUserList';
 
 const BASE_URL = process.env.REACT_APP_BASE_URL;
+const query = '';
 
 class App extends Component {
   constructor(props) {
@@ -24,9 +26,11 @@ class App extends Component {
     this.state = {
       users: [],
       products: [],
+      user:[]
     };
     this.fetchUsers = this.fetchUsers.bind(this);
     this.fetchProucts = this.fetchProucts.bind(this);
+    this.fetchSingleUser = this.fetchSingleUser.bind(this);
   }
 
   fetchUsers() {
@@ -45,9 +49,19 @@ class App extends Component {
       }));
   }
 
+  fetchSingleUser(id) {
+    console.log(id)
+    fetch(`http://localhost:3001/users/${id}`)
+      .then(resp => resp.json())
+      .then(data => this.setState({
+        user: data
+      }));
+  }
+
   componentDidMount() {
     this.fetchUsers();
     this.fetchProucts();
+    // this.fetchSingleUser(id);
   }
   //       {/* <div>{JSON.stringify(this.state.users)}</div> */}
   //       <div>{BASE_URL}</div>
@@ -67,6 +81,25 @@ class App extends Component {
         />
       );
     }
+    const RenderSingleUser = (props) => {
+      return (
+        <User
+          user={this.state.user}
+        />
+      );
+    }
+    //
+    // const findUser = (props) => {
+    //   // const index = this.state.users.findIndex((user) =>user.user_id === parseInt(id, 10));
+    //   const index =
+    //   return (
+    //     <User
+    //       user={this.state.users[index]}
+    //     />
+    //   );
+    // }
+
+
     return (
         <div className="App">
           <Switch>
@@ -81,6 +114,11 @@ class App extends Component {
             <Route path="/products" render={RenderProductsPage} />
             <Route path="/users" render={RenderUserList} />
             <Route path="/profile" render={UserProfile} />
+            {/* <Route path="/user/" render={RenderSingleUser} /> */}
+            <Route path="/user/:id"
+              props={this.props.params}
+              render={RenderSingleUser}
+            />
             {/* The last route renders a 404 error page
               when there is no matching path available */}
             <Route component={Whoops404} />

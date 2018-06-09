@@ -8105,3 +8105,948 @@ Completed 200 OK in 509ms (Views: 470.9ms | ActiveRecord: 37.8ms)
 Completed 200 OK in 606ms (Views: 227.8ms | ActiveRecord: 377.6ms)
 
 
+Started GET "/users" for 127.0.0.1 at 2018-06-03 16:06:39 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-03 16:06:39 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mUser Load (20.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 848ms (Views: 824.9ms | ActiveRecord: 20.1ms)
+
+
+  [1m[36mProduct Load (835.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 1010ms (Views: 173.8ms | ActiveRecord: 835.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-03 16:19:30 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-03 16:19:30 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (4.6ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 636ms (Views: 630.9ms | ActiveRecord: 4.6ms)
+
+
+  [1m[36mUser Load (640.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 1023ms (Views: 378.1ms | ActiveRecord: 640.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-03 16:30:46 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-03 16:30:46 -0400
+Processing by ProductsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProduct Load (20.7ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 444ms (Views: 419.5ms | ActiveRecord: 20.7ms)
+
+
+  [1m[36mUser Load (440.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 709ms (Views: 268.0ms | ActiveRecord: 440.8ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-03 16:33:28 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-03 16:33:28 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (3.5ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+  [1m[36mUser Load (5.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 625ms (Views: 621.2ms | ActiveRecord: 3.4ms)
+
+
+Completed 200 OK in 724ms (Views: 718.3ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-03 16:33:53 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-03 16:33:53 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (3.0ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 316ms (Views: 312.9ms | ActiveRecord: 3.0ms)
+
+
+  [1m[36mUser Load (319.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 785ms (Views: 466.0ms | ActiveRecord: 319.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-03 16:35:42 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-03 16:35:42 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (5.6ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 543ms (Views: 536.7ms | ActiveRecord: 5.6ms)
+
+
+  [1m[36mUser Load (546.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 958ms (Views: 411.6ms | ActiveRecord: 546.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-03 16:35:54 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-03 16:35:54 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (2.6ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 391ms (Views: 388.6ms | ActiveRecord: 2.6ms)
+
+
+  [1m[36mUser Load (394.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 842ms (Views: 447.4ms | ActiveRecord: 394.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-03 16:35:59 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-03 16:35:59 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (2.0ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 441ms (Views: 438.5ms | ActiveRecord: 2.0ms)
+
+
+  [1m[36mUser Load (442.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 829ms (Views: 385.8ms | ActiveRecord: 442.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-03 16:36:35 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-03 16:36:35 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (1.9ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 432ms (Views: 430.1ms | ActiveRecord: 1.9ms)
+
+
+  [1m[36mUser Load (432.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 728ms (Views: 294.4ms | ActiveRecord: 432.8ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-03 16:36:57 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-03 16:36:57 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (2.0ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 379ms (Views: 377.0ms | ActiveRecord: 2.0ms)
+
+
+  [1m[36mUser Load (402.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 799ms (Views: 396.4ms | ActiveRecord: 402.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-03 16:40:34 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-03 16:40:34 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mUser Load (5.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mProduct Load (4.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 630ms (Views: 625.2ms | ActiveRecord: 4.2ms)
+
+
+Completed 200 OK in 809ms (Views: 803.9ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-03 17:28:32 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-03 17:28:32 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (12.0ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 583ms (Views: 570.0ms | ActiveRecord: 12.0ms)
+
+
+  [1m[36mUser Load (593.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 924ms (Views: 323.9ms | ActiveRecord: 593.3ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-06-03 17:40:47 -0400
+Started GET "/users" for 127.0.0.1 at 2018-06-03 17:40:47 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (50.7ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 367ms (Views: 315.4ms | ActiveRecord: 50.7ms)
+
+
+  [1m[36mUser Load (375.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 692ms (Views: 312.2ms | ActiveRecord: 375.6ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-06-04 07:39:46 -0400
+Started GET "/users" for 127.0.0.1 at 2018-06-04 07:39:46 -0400
+Processing by ProductsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProduct Load (39.6ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 1214ms (Views: 1147.0ms | ActiveRecord: 39.6ms)
+
+
+  [1m[36mUser Load (1182.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 1491ms (Views: 303.8ms | ActiveRecord: 1182.8ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 07:53:09 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-04 07:53:09 -0400
+Processing by ProductsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProduct Load (6.0ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 479ms (Views: 466.4ms | ActiveRecord: 6.0ms)
+
+
+  [1m[36mUser Load (480.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 1034ms (Views: 552.7ms | ActiveRecord: 480.8ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 07:53:22 -0400
+Processing by UsersController#index as */*
+Started GET "/products" for 127.0.0.1 at 2018-06-04 07:53:22 -0400
+Processing by ProductsController#index as */*
+  [1m[36mUser Load (4.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mProduct Load (412.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 1025ms (Views: 611.9ms | ActiveRecord: 412.4ms)
+
+
+Completed 200 OK in 1038ms (Views: 1033.2ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 07:54:11 -0400
+Processing by UsersController#index as */*
+Started GET "/products" for 127.0.0.1 at 2018-06-04 07:54:11 -0400
+Processing by ProductsController#index as */*
+  [1m[36mUser Load (6.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mProduct Load (4.9ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 514ms (Views: 508.5ms | ActiveRecord: 4.9ms)
+
+
+Completed 200 OK in 1289ms (Views: 1281.5ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 07:54:19 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-04 07:54:19 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (2.8ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+  [1m[36mUser Load (4.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 513ms (Views: 509.9ms | ActiveRecord: 2.8ms)
+
+
+Completed 200 OK in 707ms (Views: 702.1ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-06-04 07:59:54 -0400
+Started GET "/users" for 127.0.0.1 at 2018-06-04 07:59:54 -0400
+Processing by ProductsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProduct Load (10.6ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 604ms (Views: 590.4ms | ActiveRecord: 10.6ms)
+
+
+  [1m[36mUser Load (592.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 986ms (Views: 391.8ms | ActiveRecord: 592.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 07:59:58 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-04 07:59:58 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (2.8ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 431ms (Views: 427.9ms | ActiveRecord: 2.8ms)
+
+
+  [1m[36mUser Load (432.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 729ms (Views: 295.6ms | ActiveRecord: 432.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 08:00:44 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-04 08:00:44 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (1.9ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+  [1m[36mUser Load (197.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 489ms (Views: 487.1ms | ActiveRecord: 1.9ms)
+
+
+Completed 200 OK in 786ms (Views: 589.1ms | ActiveRecord: 197.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-06-04 08:05:04 -0400
+Started GET "/users" for 127.0.0.1 at 2018-06-04 08:05:04 -0400
+Processing by ProductsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProduct Load (6.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 487ms (Views: 476.5ms | ActiveRecord: 6.1ms)
+
+
+  [1m[36mUser Load (476.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 849ms (Views: 371.2ms | ActiveRecord: 476.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 08:05:17 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-04 08:05:17 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (2.9ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+  [1m[36mUser Load (184.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 721ms (Views: 717.1ms | ActiveRecord: 2.9ms)
+
+
+Completed 200 OK in 865ms (Views: 680.0ms | ActiveRecord: 184.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 08:08:48 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-04 08:08:48 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mUser Load (17.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mProduct Load (13.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 728ms (Views: 713.7ms | ActiveRecord: 13.4ms)
+
+
+Completed 200 OK in 822ms (Views: 800.6ms | ActiveRecord: 17.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 08:31:04 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-04 08:31:04 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (12.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 615ms (Views: 602.2ms | ActiveRecord: 12.2ms)
+
+
+  [1m[36mUser Load (632.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 1039ms (Views: 401.1ms | ActiveRecord: 632.8ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 08:31:23 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-04 08:31:23 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (2.0ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 469ms (Views: 466.8ms | ActiveRecord: 2.0ms)
+
+
+  [1m[36mUser Load (470.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 1004ms (Views: 533.7ms | ActiveRecord: 470.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 08:31:42 -0400
+Processing by UsersController#index as */*
+Started GET "/products" for 127.0.0.1 at 2018-06-04 08:31:42 -0400
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (3.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+  [1m[36mUser Load (102.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 635ms (Views: 631.2ms | ActiveRecord: 3.1ms)
+
+
+Completed 200 OK in 791ms (Views: 687.9ms | ActiveRecord: 102.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 08:32:03 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-04 08:32:03 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mUser Load (15.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 715ms (Views: 699.7ms | ActiveRecord: 15.1ms)
+
+
+  [1m[36mProduct Load (704.6ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 966ms (Views: 260.7ms | ActiveRecord: 704.6ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 08:32:04 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-04 08:32:04 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (6.7ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 223ms (Views: 215.7ms | ActiveRecord: 6.7ms)
+
+
+  [1m[36mUser Load (231.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 670ms (Views: 438.5ms | ActiveRecord: 231.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 08:32:22 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-04 08:32:22 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (3.6ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+  [1m[36mUser Load (75.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 708ms (Views: 704.3ms | ActiveRecord: 3.6ms)
+
+
+Completed 200 OK in 753ms (Views: 676.9ms | ActiveRecord: 75.4ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-06-04 08:51:08 -0400
+Started GET "/users" for 127.0.0.1 at 2018-06-04 08:51:08 -0400
+Processing by ProductsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProduct Load (24.5ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 454ms (Views: 425.9ms | ActiveRecord: 24.5ms)
+
+
+  [1m[36mUser Load (459.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 873ms (Views: 413.0ms | ActiveRecord: 459.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 08:54:13 -0400
+Processing by UsersController#index as */*
+Started GET "/products" for 127.0.0.1 at 2018-06-04 08:54:13 -0400
+  [1m[36mUser Load (22.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Processing by ProductsController#index as */*
+Completed 200 OK in 611ms (Views: 587.8ms | ActiveRecord: 22.5ms)
+
+
+  [1m[36mProduct Load (426.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 655ms (Views: 228.1ms | ActiveRecord: 426.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 08:54:46 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-04 08:54:46 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mUser Load (38.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mProduct Load (331.5ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 814ms (Views: 482.6ms | ActiveRecord: 331.5ms)
+
+
+Completed 200 OK in 865ms (Views: 826.3ms | ActiveRecord: 38.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 08:55:07 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-04 08:55:07 -0400
+Started GET "/3" for 127.0.0.1 at 2018-06-04 08:55:07 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mUser Load (89.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mProduct Load (192.9ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 625ms (Views: 432.1ms | ActiveRecord: 192.9ms)
+
+
+Completed 200 OK in 719ms (Views: 628.5ms | ActiveRecord: 89.5ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/3"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/users" for 127.0.0.1 at 2018-06-04 08:55:25 -0400
+Started GET "/3" for 127.0.0.1 at 2018-06-04 08:55:25 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-04 08:55:25 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  
+ActionController::RoutingError (No route matches [GET] "/3"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[36mProduct Load (11.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 423ms (Views: 411.0ms | ActiveRecord: 11.3ms)
+
+
+  [1m[36mUser Load (425.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 942ms (Views: 515.9ms | ActiveRecord: 425.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 08:55:57 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-04 08:55:57 -0400
+Processing by UsersController#index as */*
+Started GET "/3" for 127.0.0.1 at 2018-06-04 08:55:57 -0400
+Processing by ProductsController#index as */*
+  
+ActionController::RoutingError (No route matches [GET] "/3"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[36mProduct Load (2.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 492ms (Views: 488.9ms | ActiveRecord: 2.2ms)
+
+
+  [1m[36mUser Load (496.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 1255ms (Views: 757.1ms | ActiveRecord: 496.9ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-06-04 08:56:12 -0400
+Started GET "/users" for 127.0.0.1 at 2018-06-04 08:56:12 -0400
+Started GET "/3" for 127.0.0.1 at 2018-06-04 08:56:12 -0400
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (32.6ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Processing by UsersController#index as */*
+  
+ActionController::RoutingError (No route matches [GET] "/3"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Completed 200 OK in 538ms (Views: 505.4ms | ActiveRecord: 32.6ms)
+
+
+  [1m[36mUser Load (465.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 911ms (Views: 445.3ms | ActiveRecord: 465.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 08:56:45 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-04 08:56:45 -0400
+Started GET "/3" for 127.0.0.1 at 2018-06-04 08:56:45 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  
+ActionController::RoutingError (No route matches [GET] "/3"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[36mUser Load (8.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mProduct Load (390.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 730ms (Views: 721.3ms | ActiveRecord: 8.8ms)
+
+
+Completed 200 OK in 786ms (Views: 395.1ms | ActiveRecord: 390.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 08:57:26 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-04 08:57:26 -0400
+Started GET "/users/3" for 127.0.0.1 at 2018-06-04 08:57:26 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mProduct Load (26.0ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 521ms (Views: 494.9ms | ActiveRecord: 26.0ms)
+
+
+  [1m[36mUser Load (526.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 859ms (Views: 332.0ms | ActiveRecord: 526.4ms)
+
+
+  [1m[36mUser Load (32.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:44
+Completed 200 OK in 965ms (Views: 0.8ms | ActiveRecord: 40.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 08:58:08 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-04 08:58:08 -0400
+Started GET "/users/3" for 127.0.0.1 at 2018-06-04 08:58:08 -0400
+Processing by UsersController#index as */*
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"3"}
+Processing by ProductsController#index as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:44
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 1.4ms)
+
+
+  [1m[36mProduct Load (5.6ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 458ms (Views: 452.4ms | ActiveRecord: 5.6ms)
+
+
+  [1m[36mUser Load (462.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 736ms (Views: 272.8ms | ActiveRecord: 462.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 09:03:22 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-04 09:03:22 -0400
+Started GET "/users/3" for 127.0.0.1 at 2018-06-04 09:03:22 -0400
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"3"}
+Processing by ProductsController#index as */*
+  [1m[36mUser Load (6.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:44
+Completed 200 OK in 21ms (Views: 7.3ms | ActiveRecord: 6.7ms)
+
+
+Processing by UsersController#index as */*
+  [1m[36mProduct Load (20.0ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 896ms (Views: 873.2ms | ActiveRecord: 20.0ms)
+
+
+  [1m[36mUser Load (876.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 1242ms (Views: 365.3ms | ActiveRecord: 876.3ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-06-04 09:29:18 -0400
+Started GET "/users/" for 127.0.0.1 at 2018-06-04 09:29:18 -0400
+Started GET "/users" for 127.0.0.1 at 2018-06-04 09:29:18 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProduct Load (16.9ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 580ms (Views: 562.7ms | ActiveRecord: 16.9ms)
+
+
+  [1m[36mUser Load (611.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 1026ms (Views: 413.9ms | ActiveRecord: 611.8ms)
+
+
+  [1m[36mUser Load (1034.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 1366ms (Views: 328.0ms | ActiveRecord: 1034.9ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 09:29:29 -0400
+Started GET "/users/" for 127.0.0.1 at 2018-06-04 09:29:29 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-04 09:29:29 -0400
+Processing by UsersController#index as */*
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mUser Load (4.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 594ms (Views: 588.8ms | ActiveRecord: 4.8ms)
+
+
+  [1m[36mProduct Load (596.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 844ms (Views: 246.8ms | ActiveRecord: 596.4ms)
+
+
+  [1m[36mUser Load (846.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 1114ms (Views: 266.6ms | ActiveRecord: 846.9ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 09:29:54 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-04 09:29:54 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+Started GET "/users/" for 127.0.0.1 at 2018-06-04 09:29:54 -0400
+Processing by UsersController#index as */*
+  [1m[36mProduct Load (5.0ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 379ms (Views: 373.2ms | ActiveRecord: 5.0ms)
+
+
+  [1m[36mUser Load (387.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (382.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 1021ms (Views: 638.1ms | ActiveRecord: 382.4ms)
+
+
+Completed 200 OK in 1120ms (Views: 732.5ms | ActiveRecord: 387.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 09:30:28 -0400
+Processing by UsersController#index as */*
+Started GET "/products" for 127.0.0.1 at 2018-06-04 09:30:28 -0400
+Started GET "/users/:id" for 127.0.0.1 at 2018-06-04 09:30:28 -0400
+Processing by ProductsController#index as */*
+Processing by UsersController#show as */*
+  Parameters: {"id"=>":id"}
+  [1m[36mUser Load (10.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mUser Load (196.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:44
+Completed 404 Not Found in 203ms (ActiveRecord: 196.3ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=:id):
+  
+app/controllers/users_controller.rb:44:in `set_user'
+  [1m[36mProduct Load (517.9ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 1014ms (Views: 1003.9ms | ActiveRecord: 10.1ms)
+
+
+Completed 200 OK in 1038ms (Views: 519.8ms | ActiveRecord: 517.9ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-04 09:31:13 -0400
+Processing by UsersController#index as */*
+Started GET "/users/:id" for 127.0.0.1 at 2018-06-04 09:31:13 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-04 09:31:13 -0400
+Processing by ProductsController#index as */*
+Processing by UsersController#show as */*
+  Parameters: {"id"=>":id"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:44
+Completed 404 Not Found in 2ms (ActiveRecord: 1.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=:id):
+  
+app/controllers/users_controller.rb:44:in `set_user'
+  [1m[36mProduct Load (29.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+  [1m[36mUser Load (107.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 721ms (Views: 691.6ms | ActiveRecord: 29.2ms)
+
+
+Completed 200 OK in 841ms (Views: 733.5ms | ActiveRecord: 107.1ms)
+
+
+Started GET "/users/:id" for 127.0.0.1 at 2018-06-05 12:31:52 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-05 12:31:52 -0400
+Started GET "/users" for 127.0.0.1 at 2018-06-05 12:31:52 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-05 12:31:52 -0400
+  [1m[35m (5.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (6.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (6.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (7.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  ↳ /usr/local/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  ↳ /usr/local/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  ↳ /usr/local/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#show as */*
+Processing by ProductsController#index as */*
+Processing by UsersController#index as */*
+  Parameters: {"id"=>":id"}
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (29.5ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+  [1m[36mProduct Load (44.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+  [1m[36mUser Load (54.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mUser Load (405.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+Completed 200 OK in 898ms (Views: 576.1ms | ActiveRecord: 312.8ms)
+
+
+Completed 200 OK in 953ms (Views: 892.5ms | ActiveRecord: 55.2ms)
+
+
+  ↳ app/controllers/users_controller.rb:44
+Completed 404 Not Found in 962ms (ActiveRecord: 479.4ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=:id):
+  
+app/controllers/users_controller.rb:44:in `set_user'
+Started GET "/users" for 127.0.0.1 at 2018-06-05 12:31:53 -0400
+Completed 200 OK in 786ms (Views: 565.0ms | ActiveRecord: 212.7ms)
+
+
+Processing by UsersController#index as */*
+  [1m[36mUser Load (66.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 456ms (Views: 388.0ms | ActiveRecord: 66.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-05 13:35:36 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-05 13:35:36 -0400
+Started GET "/users/:id" for 127.0.0.1 at 2018-06-05 13:35:36 -0400
+Processing by ProductsController#index as */*
+Processing by UsersController#show as */*
+  Parameters: {"id"=>":id"}
+  [1m[36mUser Load (11.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:44
+Completed 404 Not Found in 23ms (ActiveRecord: 11.5ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=:id):
+  
+app/controllers/users_controller.rb:44:in `set_user'
+  [1m[36mProduct Load (119.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 607ms (Views: 480.1ms | ActiveRecord: 119.4ms)
+
+
+Processing by UsersController#index as */*
+  [1m[36mUser Load (8.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 1070ms (Views: 1060.4ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-05 16:50:00 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-05 16:50:00 -0400
+Processing by UsersController#index as */*
+  [1m[36mUser Load (63.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Processing by ProductsController#index as */*
+Completed 200 OK in 1003ms (Views: 931.4ms | ActiveRecord: 63.0ms)
+
+
+  [1m[36mProduct Load (163.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 529ms (Views: 364.8ms | ActiveRecord: 163.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-06-05 16:50:38 -0400
+Started GET "/products" for 127.0.0.1 at 2018-06-05 16:50:38 -0400
+Processing by UsersController#index as */*
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (9.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8
+Completed 200 OK in 570ms (Views: 560.4ms | ActiveRecord: 9.1ms)
+
+
+  [1m[36mUser Load (575.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+Completed 200 OK in 1402ms (Views: 826.0ms | ActiveRecord: 575.2ms)
+
+

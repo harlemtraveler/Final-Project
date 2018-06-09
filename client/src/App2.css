@@ -41,7 +41,8 @@ h3{
 /* THE FRONT */
 
 .front{
-  background-image:url("https://images.unsplash.com/photo-1488409688217-e6053b1e8f42?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=62d489ce4449d4007bb9fbba9e681baf&auto=format&fit=crop&w=900&q=60");
+  /* background-image:url("https://images.unsplash.com/photo-1488409688217-e6053b1e8f42?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=62d489ce4449d4007bb9fbba9e681baf&auto=format&fit=crop&w=900&q=60"); */
+  background-color: slategray;
   background-size: cover;
   background-position: center;
 }
@@ -146,6 +147,7 @@ h3{
 .flip-container, .front, .back {
    height: 250px;
    width: 300px;
+   border: 1px solid black;
    /* margin: 5px;
    margin-left: 1px; */
    }
@@ -166,13 +168,14 @@ h3{
 	/* firefox 31 */
 	transform: rotateY(0deg);
   text-align: center;
-  font-size: 30px;
+  font-size: 15px;
   color: black;
-  text-shadow: 2px 2px #ff0000;
+  /* text-shadow: 2px 2px white; */
 }
 
 .back{
    background-color: $black;
+   color: rgb(255,255,244);
 }
 
 .back {
